@@ -1,0 +1,16 @@
+{
+  "name": "chat-ui-project",
+  "version": "1.0.0",
+  "description": "A chatbot with HTML, CSS, and a Node.js server",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0"
+  },
+  "type": "module"
+}
